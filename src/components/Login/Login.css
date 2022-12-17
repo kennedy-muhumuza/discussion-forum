@@ -1,0 +1,201 @@
+* {
+  /* background-color: #999; */
+}
+h1 {
+  /* color: transparent; */
+  text-shadow: 1px 1px #333;
+  color: blueviolet;
+  color: #999;
+  margin-left: 4px;
+  text-align: center;
+}
+li {
+  text-decoration: none;
+}
+nav {
+  /* background-color: aqua; */
+  width: 90%;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* float: right; */
+}
+ul {
+  /* background-color: aqua; */
+  /* width: 30%; */
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.link {
+  text-transform: uppercase;
+  /* overflow: hidden; */
+  text-decoration: none;
+  color: antiquewhite;
+  color: green;
+  color: blueviolet;
+  font-weight: bold;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.link:after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.link:hover:after {
+  width: 100%;
+}
+link {
+  color: green;
+}
+.login {
+  background-color: blue;
+  border-radius: 5px;
+  background-size: 200%;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+  border-color: blue;
+  transition: 0.5s;
+}
+.remember-username {
+  display: flex;
+  justify-content: center;
+}
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(140, 154, 233, 0.933);
+  /* width: 40%; */
+  padding: 30px 10px;
+  /* box-shadow: #999 10px 5px; */
+  /* background: #dde1e7; */
+  /* background: #8a50f8; */
+  border-radius: 5px;
+  box-shadow: -30px -30px 70px #ffffff73,
+    30px 30px 20px rgba(94, 104, 121, 0.288);
+}
+.login:hover {
+  background-color: rgb(29, 29, 53);
+  border-color: rgb(29, 29, 53);
+  /* background-color: rgb(147, 187, 255); */
+  padding: 10px 25px;
+}
+
+.neumorphism-1 {
+  height: 150px;
+  background: #333;
+  width: 150px;
+  background: #dde1e7;
+  /* background: #8a50f8; */
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.hr-tag {
+  /* width: 95%;
+  height: 0.00000001px;
+  background: #333; */
+  display: block;
+  border: 0;
+  height: 1px;
+  width: 100%;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(190, 190, 190, 0),
+    rgba(250, 250, 250, 0.75),
+    rgba(190, 190, 190, 0)
+  ); */
+  background-image: linear-gradient(
+    to right,
+    rgba(75, 21, 146, 0),
+    rgba(31, 38, 139, 0.75),
+    rgba(4, 58, 5, 0)
+  );
+  justify-content: flex-end;
+}
+/* .hr-tag-container {
+  max-height: 1px;
+  width: 80%;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(75, 21, 146, 0),
+    rgba(31, 38, 139, 0.75),
+    rgba(4, 58, 5, 0)
+  );
+  background-color: red;
+  height: 0.5px;
+} */
+/* .hr-bottom {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+} */
+.nav-hr-tag-holder {
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 90%;
+  /* background-color: green; */
+  /* float: right; */
+}
+.header-login-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  padding-top: 5px;
+  justify-content: space-around;
+}
+.create-account-button {
+  background-color: #333;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+.create-account-button:hover {
+  padding: 12px 17px;
+  border-radius: 10px;
+}
+h1:hover {
+  color: aqua;
+
+  /* color: transparent; */
+  text-shadow: 2px 3px #333;
+  color: blueviolet;
+  color: #999;
+  margin-left: 4px;
+  text-align: center;
+}
+.copy-right {
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  margin-top: 1rem;
+
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #52057b;
+  display: block;
+  text-align: center;
+}
+.input {
+  width: 85%;
+  padding: 5px 6px;
+  border-radius: 5px;
+  border: 0;
+  color: goldenrod;
+}

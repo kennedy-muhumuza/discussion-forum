@@ -1,0 +1,4 @@
+.subforum-row-in-discforum {
+  display: grid;
+  grid-template-columns: 7% 50% 13% 30%;
+}

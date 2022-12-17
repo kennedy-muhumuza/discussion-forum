@@ -1,0 +1,29 @@
+.legend {
+  /* stroke-width: 40px; */
+  font-size: large;
+  color: brown;
+}
+.submit {
+  background-color: green;
+  border-radius: 5px;
+  background-size: 200%;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+  border-color: green;
+  transition: 0.5s;
+}
+.submit:hover {
+  padding: 6px 11px;
+  color: rgb(238, 209, 209);
+  background-color: rgb(19, 72, 19);
+  border-color: rgb(19, 72, 19);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  flex-direction: column;
+}
